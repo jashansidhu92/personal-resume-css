@@ -1,0 +1,39 @@
+# Design Principles
+
+## Color Scheme
+
+### Primary Color:
+- **Blue** - #3498db
+  - Represents trust, professionalism, and calm.
+
+### Secondary Color:
+- **Green** - #2ecc71
+  - Represents growth, balance, and harmony.
+
+### Accent Color:
+- **Red** - #e74c3c
+  - Represents passion, energy, and urgency.
+
+### Color Palette:
+- **#3498db (Blue)**: Main color used for headings, buttons, and links.
+- **#2ecc71 (Green)**: Used for call-to-action buttons, highlights.
+- **#e74c3c (Red)**: For small accents, notifications, or important calls to action.
+
+## Typography
+
+### Font Pairings
+
+#### Heading Font:
+- **Roboto Slab** (serif)
+  - Used for headings and titles.
+  - Provides a strong and structured look, perfect for grabbing attention.
+
+#### Body Font:
+- **Open Sans** (sans-serif)
+  - Used for body text and paragraphs.
+  - Offers excellent readability, and its clean lines are suitable for all screen sizes.
+
+### Font Usage:
+- **Headings**: Roboto Slab
+- **Body text**: Open Sans
+
