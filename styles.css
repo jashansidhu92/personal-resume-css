@@ -49,6 +49,7 @@ footer {
   }
 
 
+
 body {
     font-family: 'Roboto', sans-serif; 
     font-size: 16px; 
@@ -93,4 +94,103 @@ a:hover {
     color: #3498db; 
     text-decoration: underline; 
   }
+  
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #2980b9;
+    color: white;
+  }
+  
+header img {
+    border-radius: 50%;
+  }
+  
+  /* Navigation Bar for larger screens */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+  }
+  
+nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+nav ul li {
+    margin: 0 15px;
+  }
+  
+nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Media Query for Tablet Devices */
+@media screen and (max-width: 768px) {
+header {
+      padding: 15px;
+    }
+  
+header h1 {
+      font-size: 1.5rem;
+    }
+  
+    /* Stack Navigation Links on Tablet */
+nav ul {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+nav ul li {
+      margin: 10px 0;
+    }
+  
+section {
+      padding: 15px;
+    }
+  }
+  
+  /* Media Query for Mobile Devices */
+@media screen and (max-width: 480px) {
+header {
+      padding: 10px;
+    }
+  
+header h1 {
+      font-size: 1.2rem;
+    }
+  
+header p {
+      font-size: 1rem;
+    }
+  
+    /* Make Profile Image Smaller on Mobile */
+header img {
+      width: 150px;
+      height: 150px;
+    }
+  
+    /* Stack Navigation Links for Mobile */
+nav ul {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+nav ul li {
+      margin: 5px 0;
+    }
+  
+section {
+      padding: 10px;
+    }
+  
+footer p {
+      font-size: 0.9rem;
+    }
+  }
+  
   
